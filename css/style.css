@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+.formulario{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.tituloExplicacao h1{
+    margin-bottom: 5px;
+    margin-left: 10%;;
+}
+
+.tituloExplicacao p{
+    margin-top: 0%;
+    margin-left: 10%;
+}
+
+.tituloExplicacao{
+    margin-left: 10%;
+    border-bottom: 2px solid black;
+    max-width: 80%;
+}
+
+h1, p, label, ::placeholder, input{
+    font-family: sans-serif;
+}
+
+.formularioAreas div{
+    margin-bottom: 10px;
+}
+
+.formularioAreas{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 28%;
+}
+
+.formularioAreas{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-content: center;
+    background-color: #2C9AB7;
+    max-width: fit-content;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 5%;
+
+}
+
+.formulario input{
+    width: 200px;
+    border-radius: 5px;
+    background-color: rgb(232, 232, 232);
+    height: 20px;
+    box-shadow: 0px 1px 2px rgb(52, 52, 52) inset;
+}
+
+.formulario textarea{
+    border-radius: 10px;
+    background-color: rgb(232, 232, 232);
+    box-shadow: 0px 1px 2px rgb(52, 52, 52) inset;
+    resize: none;
+}
+
+.formulario::placeholder{
+    color: rgb(133, 133, 133);
+}
+
+.formularioAreas label{
+    padding-left: 10px;
+}
+
+.formularioAreas input, textarea{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    border: 1px solid #195160;
+}
+    
+.formularioAreas textarea::-webkit-scrollbar {
+ width: 20px;
+}
+      
+.formularioAreas textarea::-webkit-scrollbar-track {
+box-shadow: inset 0 0 5px grey;
+border-radius: 10px;
+}
+.formularioAreas textarea::-webkit-scrollbar-thumb {
+background: #fe3434;
+border-radius: 10px;
+}
+
+
+.formulario button{
+    width: 100px;
+    height: 45px;
+    margin-top: 15px;
+    border-radius: 20%;
+    border: none;
+    color: white;
+    background-color: #fe3434;
+    border: 1px solid #c42f2f;
+    box-shadow: -1px 1px 2px #0a3642 ;
+}
+
+.formulario button:active{
+    background-color: #9c1e1e;
+    border: none;
+}
+
+@media (max-width: 320px) {
+	.left_article {
+		width: 100%;
+		height: auto;
+	}
+	.right_article {
+		width: 100%;
+		height: auto;
+	}
+	.placeholder {
+		width: 100%;
+		margin-top: 22PX;
+		margin-right: 0px;
+		margin-bottom: 22PX;
+		margin-left: 0px;
+		padding-top: 0px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		max-width: 400px;
+		max-height: 200px;
+		height: auto;
+	}	
+
+
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+	.left_article {
+		width: 100%;
+		height: auto;
+	}
+	.right_article {
+		width: 100%;
+		height: auto;
+	}
+	.placeholder {
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		padding-top: 0px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		width: 100%;
+		max-width: 100%;
+		height: auto;
+		max-height: 100%;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 1000px) {
+	.left_article {
+		height: auto;
+	}
+	.right_article {
+		height: auto;
+		padding-bottom: 27px;
+	}
+	.placeholder {
+		width: 100%;
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}

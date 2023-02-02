@@ -1,0 +1,147 @@
+/* tabela do lado*/
+.tabela2 {
+	height: 164%;
+	width: 19%;
+	position: absolute;
+	right: 6%;
+	top: 27%;
+	border-radius: 5px;
+}
+
+.titulop2 {
+	background-color: #fe3434;
+	color: #FFFFFF;
+	text-shadow: 0.1em 0.1em 0.05em #1500ff;
+	border-radius: 5px;
+	font-weight: 500;
+	text-align: center;
+	margin-top: 0%;
+	padding: 5px;
+}
+
+.caixap2 {
+	display: flex;
+	flex-direction: row;
+}
+
+.imagp2{
+	margin-inline: 8px;
+	display: flex;
+	flex-direction: column;
+	cursor: pointer;
+	
+}
+
+.textop{
+	font-size: 12px;
+	font-weight: 800;
+	flex-direction: column;
+	text-align: center;
+	cursor: pointer;
+}
+
+.text2 {
+	font-size: 12px;
+	font-weight: 800;
+	margin-top: 15%;
+	text-align: center;
+}
+
+.text3 {
+	font-size: 12px;
+	font-weight: 800;
+	margin-top: 17%;
+}
+
+.text4 {
+	font-size: 12px;
+	font-weight: 800;
+	margin-top: 15%;
+}
+
+.text5 {
+	font-size: 12px;
+	justify-content: baseline;
+	font-weight: 800;
+	margin-top: 14%;
+}
+
+.linha1 {
+	background-color: #fe3434;
+	padding: 2px;
+}
+
+.linha2 {
+	background-color: #fe3434;
+	padding: 2px;
+}
+
+.linha3 {
+	background-color: #fe3434;
+	padding: 2px;
+}
+
+.linha4 {
+	background-color: #fe3434;
+	padding: 2px;
+}
+
+.linha5 {
+	background-color: #fe3434;
+	padding: 2px;
+	margin-top: 7%;
+}
+
+.tit2p {
+	padding: 20px;
+	margin-top: -15px;
+	border-radius: 5px;
+	border-style: initial;
+	height: 545px;
+}
+
+.titup2 {
+	color: #EEEEEE;
+	font-weight: 800;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-style: italic;
+	text-align: center;
+	background-color: #fe3434;
+	padding: 4px;
+	border-radius: 5px;
+	text-shadow: 0.1em 0.1em 0.05em #1500ff;
+}
+
+.imgjogos{
+	display: flex;
+	flex-direction: column;
+	cursor:pointer;
+}
+
+
+.tabelajogos {
+	display: flex;
+	flex-direction: row;
+}
+
+.paragrafojogos{
+	margin-inline: 20px;
+	color: #FEAF34;
+	font-size: 16px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: 800;
+	margin-top: 17px;
+	cursor: pointer;
+}
+
+.para2 {
+	margin-top: 100px;
+}
+
+.para3 {
+	margin-top: 105px;
+}
+
+.para4 {
+	margin-top: 100px;
+}
